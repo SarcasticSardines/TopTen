@@ -15,6 +15,7 @@
 .Title {
     text-align: center;
     font-family: CrimsonText;
+    font-size: 45px;
 }
 .bannerImg {
     width: 900px;
@@ -32,4 +33,7 @@ hr {
     font-family: CrimsonText;
     font-size: 24px;
     margin: 40px;
+}
+.listHeader {
+    font-family: CrimsonText;
 }
