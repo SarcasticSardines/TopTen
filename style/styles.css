@@ -5,6 +5,10 @@
 .basicBody {
     background-color: gainsboro;
 }
+.standardTxt {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
 .navSpace {
     margin-top: 100px;
 }
@@ -27,8 +31,7 @@
     font-size: 60px;
 }
 .bannerImg {
-    max-width: 900px;
-    min-width: 400px;
+    width: 900px;
     margin-bottom: -16px;
 }
 hr {
