@@ -13,6 +13,19 @@
     font-family: CrimsonText;
     font-size: 45px;
 }
+.heroImg {
+    position: relative;
+    width: 100%;
+}
+.heroTxt {
+    position: absolute;
+    top: 650px;
+    left: 15%;
+    margin-right: 550px;
+}
+.bannerText {
+    font-size: 60px;
+}
 .bannerImg {
     max-width: 900px;
     min-width: 400px;
@@ -56,5 +69,8 @@ hr {
     .listHeader{
         text-align: center;
         margin: 30px;
+    }
+    .heroTxt {
+        position: sticky;
     }
 }
