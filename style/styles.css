@@ -23,9 +23,9 @@
 }
 .heroTxt {
     position: absolute;
-    top: 650px;
-    left: 15%;
-    margin-right: 550px;
+    top: 400px;
+    left: 10%;
+    margin-right: 250px;
 }
 .bannerText {
     font-size: 60px;
@@ -63,7 +63,7 @@ hr {
     justify-content: center;
 }
 
-@media screen and (maw-width: 900px) {
+@media screen and (max-width: 1000px) {
     .bannerImg {
         display: flex;
         justify-content: center;
@@ -74,6 +74,9 @@ hr {
         margin: 30px;
     }
     .heroTxt {
-        position: sticky;
+    position: absolute;
+    top: 450px;
+    left: 10%;
+    margin-right: -300px;
     }
 }
