@@ -20,12 +20,19 @@
 .heroImg {
     position: relative;
     width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 .heroTxt {
     position: absolute;
     top: 400px;
     left: 10%;
     margin-right: 250px;
+}
+.thumbnail {
+    width: 500px;
 }
 .bannerText {
     font-size: 60px;
