@@ -12,6 +12,9 @@
 .navSpace {
     margin-top: 100px;
 }
+.subSpace {
+    margin-top: 500px;
+}
 .Title {
     text-align: center;
     font-family: CrimsonText;
@@ -93,5 +96,11 @@ hr {
     top: 450px;
     left: 10%;
     margin-right: -300px;
+    }
+    .smashTop {
+        margin-top: 300px;
+    }
+    .spaceMe {
+        margin-top: 450px;
     }
 }
