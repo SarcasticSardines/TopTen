@@ -12,6 +12,9 @@
 .navSpace {
     margin-top: 100px;
 }
+.subSpace {
+    margin-top: 500px;
+}
 .Title {
     text-align: center;
     font-family: CrimsonText;
@@ -70,6 +73,14 @@ hr {
     justify-content: center;
 }
 
+.FinalSmash{
+    width: 210px;
+    height: 210px;
+}
+.smashFont {
+    font-family: CrimsonText;
+}
+
 @media screen and (max-width: 1000px) {
     .bannerImg {
         display: flex;
@@ -86,14 +97,10 @@ hr {
     left: 10%;
     margin-right: -300px;
     }
-}
-
-.MrImg{
-    width: 300px;
-    height: 300px;
-}
-
-.ZImg{
-    width: 300px;
-    height: 300px;
+    .smashTop {
+        margin-top: 300px;
+    }
+    .spaceMe {
+        margin-top: 450px;
+    }
 }
