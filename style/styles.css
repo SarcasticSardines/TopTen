@@ -17,6 +17,26 @@
     font-family: CrimsonText;
     font-size: 45px;
 }
+.heroImg {
+    position: relative;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.heroTxt {
+    position: absolute;
+    top: 400px;
+    left: 10%;
+    margin-right: 250px;
+}
+.thumbnail {
+    width: 500px;
+}
+.bannerText {
+    font-size: 60px;
+}
 .bannerImg {
     width: 900px;
     margin-bottom: -16px;
@@ -36,4 +56,34 @@ hr {
 }
 .listHeader {
     font-family: CrimsonText;
+}
+.listImg {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    max-width: 600px;
+    min-width: 300px;
+}
+.centerMe {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .bannerImg {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .listHeader{
+        text-align: center;
+        margin: 30px;
+    }
+    .heroTxt {
+    position: absolute;
+    top: 450px;
+    left: 10%;
+    margin-right: -300px;
+    }
 }
